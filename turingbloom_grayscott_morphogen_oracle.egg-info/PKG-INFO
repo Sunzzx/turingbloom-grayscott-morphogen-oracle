@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: turingbloom-grayscott-morphogen-oracle
+Version: 0.1.0
+Summary: Gray–Scott reaction–diffusion Turing morphogenesis oracle: Pearson pattern atlas, FTCS PDE solver, linear stability/dispersion, ANSI live demo
+Author: Sunzzx & Hermes AI
+License: MIT
+Project-URL: Homepage, https://github.com/Sunzzx/turingbloom-grayscott-morphogen-oracle
+Project-URL: Repository, https://github.com/Sunzzx/turingbloom-grayscott-morphogen-oracle
+Project-URL: Issues, https://github.com/Sunzzx/turingbloom-grayscott-morphogen-oracle/issues
+Project-URL: Sponsor, https://github.com/sponsors/Sunzzx
+Project-URL: License-Commercial, https://buy.stripe.com/test_turingbloom_enterprise
+Project-URL: Documentation, https://github.com/Sunzzx/turingbloom-grayscott-morphogen-oracle#readme
+Keywords: gray-scott,reaction-diffusion,turing-patterns,morphogenesis,pearson-atlas,developmental-biology,pde,pattern-formation,computational-biology,self-organization
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.24
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0; extra == "dev"
+Dynamic: license-file
+
+# turingbloom-grayscott-morphogen-oracle
+
+## Gray-Scott Reaction-Diffusion Turing Morphogenesis Oracle
+
+### Humanity Impact
+Pearson pattern atlas, FTCS PDE solver, linear stability analysis.
+
+### Quickstart
+```bash
+uv sync
+uv run pytest -q
+```
+
+### License
+MIT
+
+### Author
+Ayush Kandwal (Sunzzx)

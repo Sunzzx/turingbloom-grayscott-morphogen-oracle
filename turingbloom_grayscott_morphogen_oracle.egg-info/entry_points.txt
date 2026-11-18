@@ -1,0 +1,4 @@
+[console_scripts]
+grayscott = turingbloom.demo:main
+turingbloom = turingbloom.demo:main
+turingbloom-demo = turingbloom.demo:main
